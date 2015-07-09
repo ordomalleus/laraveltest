@@ -150,6 +150,11 @@ return [
          * DebugBar for Laravel 5 https://github.com/barryvdh/laravel-debugbar
          */
         'Barryvdh\Debugbar\ServiceProvider',
+        /*
+         * Service DEV
+         * IdeHelper for Laravel 5 https://github.com/barryvdh/laravel-ide-helper
+         */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
     ],
 
@@ -206,6 +211,7 @@ return [
          * DebugBar for Laravel 5 https://github.com/barryvdh/laravel-debugbar
          */
         'Debugbar' => 'Barryvdh\Debugbar\Facade',
+        
 
     ],
 
